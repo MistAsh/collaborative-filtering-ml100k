@@ -14,11 +14,9 @@ This repository contains an implementation of collaborative filtering algorithms
 ## Similarity Metrics
 
 The predicted rating is computed as:
-
-$$
+```math
 \hat{r}_{ui} = \bar{r}_u + \frac{\sum_{v \in N(u)} s(u, v) (r_{vi} - \bar{r}_v)}{\sum_{v \in N(u)} |s(u, v)|}
-$$
-
+```
 Supported similarity computations:
 
 * **Pearson Similarity**
