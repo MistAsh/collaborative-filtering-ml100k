@@ -4,7 +4,6 @@ from utils.similarity import SimilarityComputer
 from cf.base import BaseCF
 
 
-
 class SimilarityBasedCF(BaseCF, ABC):
 
     def __init__(

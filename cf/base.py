@@ -45,5 +45,3 @@ class BaseCF(ABC):
                                   errors='ignore')
 
         return user_predictions.nlargest(k).index.tolist()
-
-
